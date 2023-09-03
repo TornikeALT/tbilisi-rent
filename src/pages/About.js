@@ -5,12 +5,13 @@ import CarRepair from '../images/images/car-repair.png';
 import PlanTrip from '../components/PlanTrip';
 import Banner from '../components/Banner';
 
+
 function About() {
   return (
     <section>
       <div className="container mx-auto p-10 xl:mt-1 mt-20">
         <div className="gap-5 flex flex-col items-center xl:items-stretch xl:flex-row xl:justify-between">
-          <div>
+          <div className='flex justify-center items-center flex-row'>
             <img
               src={CarKeys}
               alt="woman with mobile and car in background"
